@@ -8,7 +8,7 @@ public class BackJoon_1929_소수구하기 {
         int M = sc.nextInt();
         int N = sc.nextInt();
         int[] A = new int[N+1];
-        for(int i=1; i<=N; i++) {
+        for(int i=2; i<=N; i++) {
             A[i] = i;
         }
 
