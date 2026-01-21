@@ -8,8 +8,8 @@ public class BaekJoon_2439 {
         int N = sc.nextInt();
         for (int i = N; i > 0; i--) {
             for (int j = 1; j <= N; j++) {
-                if (j >= i) System.out.println("*");
-                else System.out.println(" ");
+                if (j >= i) System.out.print("*");
+                else System.out.print(" ");
             }
             System.out.println();
         }
