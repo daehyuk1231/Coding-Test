@@ -14,6 +14,6 @@ public class BaekJoon_10818 {
             if (temp > max) max = temp;
             if (temp < min) min = temp;
         }
-        System.out.println(max + " " + min);
+        System.out.println(min + " " + max);
     }
 }
