@@ -18,6 +18,7 @@ public class BaekJoon_10250 {
                 if (X < 10) System.out.println(H + "0" + X);
                 else System.out.println(H + "" + X);
             } else {
+                X++;
                 if (X < 10) System.out.println(Y + "0" + X);
                 else System.out.println(Y + "" + X);
             }
