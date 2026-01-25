@@ -10,7 +10,9 @@ public class BaekJoon_10162 {
             System.out.println(-1);
         } else {
             int A = T / 300;
+            T = T % 300;
             int B = T / 60;
+            T = T % 60;
             int C = T / 10;
             System.out.println(A + " " + B + " " + C);
         }
