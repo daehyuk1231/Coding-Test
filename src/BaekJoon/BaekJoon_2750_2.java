@@ -1,6 +1,5 @@
 package BaekJoon;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class BaekJoon_2750_2 {
@@ -12,7 +11,18 @@ public class BaekJoon_2750_2 {
             A[i] = sc.nextInt();
         }
 
-        Arrays.sort(A);
+//        Arrays.sort(A);
+
+        for (int i = 1; i < N; i++) {
+            for (int j = 0; j < N - i; j++) {
+                if (A[j] > A[j + 1]) {
+                    int temp = A[j];
+                    A[j] = A[j + 1];
+                    A[j + 1] = temp;
+                }
+            }
+        }
+
         for (int i = 0; i < N; i++) {
             System.out.println(A[i]);
         }
