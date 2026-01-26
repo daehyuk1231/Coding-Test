@@ -21,7 +21,7 @@ public class BaekJoon_10813 {
         }
 
         for (int i = 1; i <= N; i++) {
-            System.out.println(A[i] + " ");
+            System.out.print(A[i] + " ");
         }
     }
 }
