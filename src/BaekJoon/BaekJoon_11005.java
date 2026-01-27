@@ -17,7 +17,7 @@ public class BaekJoon_11005 {
         } else {
             int cnt = 0;
             double temp = B;
-            while (N > temp) {
+            while (N >= temp) {
                 temp = Math.pow(B, ++cnt);
             }
 
