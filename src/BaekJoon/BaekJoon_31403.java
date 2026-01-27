@@ -1,0 +1,17 @@
+package BaekJoon;
+
+import java.util.Scanner;
+
+public class BaekJoon_31403 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int A = sc.nextInt();
+        int B = sc.nextInt();
+        int C = sc.nextInt();
+        System.out.println(A + B - C);
+
+        String AB = String.valueOf(A) + String.valueOf(B);
+        int result = Integer.parseInt(AB) - C;
+        System.out.println(result);
+    }
+}
