@@ -18,7 +18,7 @@ public class BaekJoon_10820 {
                 else if (now >= 'A' && now <= 'Z') D++;
                 else N++;
             }
-            System.out.println(S + " " + D + "  " + N + " " + B);
+            System.out.println(S + " " + D + " " + N + " " + B);
         }
     }
 }
