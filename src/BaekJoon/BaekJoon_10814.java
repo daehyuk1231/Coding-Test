@@ -30,14 +30,14 @@ public class BaekJoon_10814 {
             System.out.println(now.age + " " + now.name);
         }
     }
-}
 
-class People {
-    int age;
-    String name;
+    static class People {
+        int age;
+        String name;
 
-    public People(int age, String name) {
-        this.age = age;
-        this.name = name;
+        public People(int age, String name) {
+            this.age = age;
+            this.name = name;
+        }
     }
 }

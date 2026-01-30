@@ -1,5 +1,6 @@
 package BaekJoon;
 
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
@@ -18,23 +19,25 @@ public class BaekJoon_11650 {
             System.out.println(now.x + " " + now.y);
         }
     }
-}
 
-class Point implements Comparable<Point> {
+    static class Point implements Comparable<Point> {
 
-    int x;
-    int y;
+        int x;
+        int y;
 
-    public Point(int x, int y) {
-        this.x = x;
-        this.y = y;
-    }
-
-    @Override
-    public int compareTo(Point o) {
-        if (this.x == o.x) {
-            return this.y - o.y;
+        public Point(int x, int y) {
+            this.x = x;
+            this.y = y;
         }
-        return this.x - o.x;
+
+        @Override
+        public int compareTo(Point o) {
+            if (this.x == o.x) {
+                return this.y - o.y;
+            }
+            return this.x - o.x;
+        }
     }
+
 }
+

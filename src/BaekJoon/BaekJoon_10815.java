@@ -45,14 +45,16 @@ public class BaekJoon_10815 {
             System.out.print(answer[i] + " ");
         }
     }
-}
 
-class MyArr {
-    int index;
-    int value;
+    static class MyArr {
+        int index;
+        int value;
 
-    public MyArr(int index, int value) {
-        this.index = index;
-        this.value = value;
+        public MyArr(int index, int value) {
+            this.index = index;
+            this.value = value;
+        }
     }
+
 }
+
